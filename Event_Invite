@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>20s - Murder Mystery Party</title>
+        <style>
+        
+        #base_all {background-color: rgb(26, 22, 26);}
+        
+        #base_invitation {position: absolute;
+            top: 225px;
+            left: 50px;
+            background-color: rgb(26, 22, 26);
+            border: 2px, double, rgb(204, 153, 0);
+            padding: 3px; 
+            width: 80%; 
+        }
+            
+        #base_invitation_2 {background-color: rgb(26, 22, 26);
+            border: 2px, outset, rgb(204, 153, 0); 
+            text-align: center;
+            padding: 4px;
+        }
+        
+        h1 {color: rgb(204, 153, 0); font-family: "Garamond", serif; text-align: center; padding: 20px;}
+        
+        h2 {color: rgb(192, 192, 192); text-align: center; font-style: italic; font-family: "Garamond", serif;}
+        
+        body {color: rgb(192, 192, 192); 
+        font-family: "Garamond", serif ;}
+        
+        .table {margin-left: 20px; margin-top: 15px; 
+        }
+        
+        #dress-to-kill {text-align: center; font-style: italic;}
+        
+        #rsvp {text-decoration: underline; 
+            color: rgb(204, 153, 0); font-weight: bold;                   background-color: rgb(255, 245, 222);
+            border: 2px, outset, rgb(204, 153, 0);
+            padding: 10px;
+            width: 40px;
+            height: 20px;
+            position: relative;
+            margin-left: 458px;
+           
+        }
+        
+        .text {text-align: center;}
+        
+        #flapper {filter: sepia(20%);}
+            
+        </style>
+    </head>
+    
+    <body>
+    
+    <div id="base_all">
+        
+    <h1>The Roaring Mystery Unfolds...</h1>
+    <h2>You´re invited!</h2>
+    
+    <img id="flapper" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Where_there%27s_smoke_there%27s_fire_by_Russell_Patterson_crop.jpg/1280px-Where_there%27s_smoke_there%27s_fire_by_Russell_Patterson_crop.jpg" alt= "a fashionably dressed flapper in the 1920s." width= "522px">
+        
+        <div id="base_invitation">
+         <div id="base_invitation_2">
+         <p class= "text">The year is <strong>1925</strong>.</p>
+         <p>The drinks are flowing, the jazz is playing, and a deadly secret is about to unfold.</p>
+         <p> <strong> Join us </strong> for an evening of mystery and mayhem at the Grand Gatsby Manor. A night filled with glitz, glamour, and intrigue awaits, but beware—everyone has something to hide.</p> </div>
+        </div>
+    
+        <div class= "table">
+        <table>
+            <thead>
+                <tr>
+                    <th>Date: 25th January |</th>
+                    <th>Time: 7 pm |</th>
+                    <th>Location: 13 Champagne Crescent</th>
+                
+                </tr>
+        
+             </thead>
+            
+         </table>
+         </div>
+        
+        
+    <p id="dress-to-kill"><strong>Dress to kill </strong>—and let your glamour be as mysterious as your intentions</p>
+        
+    <p id="rsvp">RSVP</p>
+        
+    </div>    
+    </body>
+    
+</html>
